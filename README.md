@@ -30,7 +30,7 @@ https://www.blackhillsinfosec.com/bypass-anti-virus-run-mimikatz/
 **Juicy and Rogue Potato Privesc Techniques**
 * x86 version of Juicy Potato is nowhere to be found, adapted the project to work for a CTF that required it.
 
-* RoguePotato - A newer adapter version of Juicy that works on the most modern systems
+* RoguePotato - A newer adapter version of Juicy that works on the more modern patch levels of Windows
 
 **Watson and Seatbelt**
 * compile latest version of these awesome privesc tools
