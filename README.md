@@ -37,7 +37,7 @@ https://www.blackhillsinfosec.com/bypass-anti-virus-run-mimikatz/
 
 **Powershell scripts**
 * A handful of random powershell scripts that query AD information. 
-* A fix for Powercat that doesn't require you to hit the enter key of the victim side. Not sure what that is even a thing but it is.
+* A fix for Powercat that doesn't require you to hit the enter key of the victim side. Not sure why that is even a thing but it is.
 * A runas script that works a lot like sudo for Windows. The example uses a user to launch netcat, but you can use any binary you want.
 
 **Metasploit/MSFVenom Automation**
