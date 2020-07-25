@@ -20,7 +20,7 @@ socks5 127.0.0.1 1080
 ```
 
 **Mount Shared Folder in VMWare**
-It is unbelievable to me that Shared Folders in VMWare don't automatically mount or work in any way on Kali without jumping through hoops. I wrote a quick script you can run to mount the folder.
+Shared Folders in VMWare Kali are a pain in the ass. I wrote a quick script you can run to mount the folder. Just make /mnt/hgfs if it doesn't already exist and run to mount your folder.
 
 **Mimikatz** 
 * Old binaries that still work well on server 2019
