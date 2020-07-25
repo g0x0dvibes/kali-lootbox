@@ -1,10 +1,11 @@
 # Kali Lootbox
 
-This is a random collection of really handy scripts and binaries for use in pentesting or CTF. Some of the stuff I had to compile by hand because I couldn't find I couldn't find it anywhere else. Here's a list of the coolest stuff.
+This is a random collection of really handy scripts and binaries for use in pentesting or CTF. Some of the stuff I had to compile by hand because I couldn't find I couldn't find it anywhere else.
 
 Some random things included...
 
-* Chisel Client Socks - Static binaries for x86/x64 win/lin. This is a really cool tunneling application, but never supported reverse dynamic port forwarding with SOCKS5. I found some code that enables this support, and compiled the static binaries for both OS and architectures. Usage is like
+**Chisel Client Socks**
+Static binaries for x86/x64 win/lin. This is a really cool tunneling application, but never supported reverse dynamic port forwarding with SOCKS5. I found some code that enables this support, and compiled the static binaries for both OS and architectures. Usage is like
 
 ```
 # on kali box:
